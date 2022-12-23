@@ -4,7 +4,7 @@ CREATE TABLE "Notification" (
     "recipientId" TEXT NOT NULL,
     "content" TEXT NOT NULL,
     "category" TEXT NOT NULL,
-    "readdAt" DATETIME,
+    "readAt" DATETIME,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
